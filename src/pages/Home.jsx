@@ -8,7 +8,7 @@ function Home() {
     <div>
       <header className="relative h-[100%] xl:h-[100vh] w-full overflow-hidden  ">
         <video autoPlay loop muted className="w-[full] object-contain    ">
-          <source src={video} type="video/mp4" />
+          <source src={`./${video}`} type="video/mp4" />
         </video>
         <div className="container mx-auto px-2 lg:px-14 md:px-0  absolute h-full  flex items-center z-10 inset-0 justify-center  lg:justify-start">
           <div className="  font-extrabold  l   ">

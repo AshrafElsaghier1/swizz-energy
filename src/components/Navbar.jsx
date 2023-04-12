@@ -1,6 +1,6 @@
 import React from "react";
 import { Menu } from "antd";
-import logo from ".././assets/swiss-logo.jpg";
+import logo from "../assets/swiss-logo.jpg";
 import { useState } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 export const items = [
@@ -85,7 +85,13 @@ function Navbar({ screenWidth, navbarColor, scrollPosition }) {
             swiss energy hub
           </Link> */}
           <Link className="swiss energy hub" to={"/"}>
-            <img width={150} height="60" src={logo} title="" alt="logo" />
+            <img
+              width={150}
+              height="60"
+              src={`./${logo}`}
+              title=""
+              alt="logo"
+            />
           </Link>
           <div className="flex justify-center items-center">
             {screenWidth > 767 && (
