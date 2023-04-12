@@ -239,7 +239,7 @@ html body {
           @media (max-width: 767px) {
             .main_section {
               position: relative;
-              background-image: url(./${Nx});
+              background-image: url(.${Nx});
               z-index: 1;
               background-repeat: no-repeat;
               background-size: cover;
