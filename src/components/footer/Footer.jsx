@@ -5,8 +5,8 @@ import { IoIosMail } from "react-icons/io";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { BsInstagram, BsTelephoneFill } from "react-icons/bs";
-import swizzWhite from "../../assets/swizz-white.jpg";
-import swizzBlack from "../../assets/wizz-black.jpg";
+import swizzWhite from "../.././assets/swizz-white.jpg";
+import swizzBlack from "../.././assets/wizz-black.jpg";
 import { Link } from "react-router-dom";
 function Footer() {
   const [isHover, setIsHover] = useState(false);

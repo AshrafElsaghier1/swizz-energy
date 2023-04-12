@@ -1,7 +1,7 @@
 import { Squash as Hamburger } from "hamburger-react";
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/swiss-logo.jpg";
+import logo from ".././assets/swiss-logo.jpg";
 import { IoLocationSharp } from "react-icons/io5";
 import { BsInstagram, BsTelephoneFill } from "react-icons/bs";
 import { IoIosMail } from "react-icons/io";

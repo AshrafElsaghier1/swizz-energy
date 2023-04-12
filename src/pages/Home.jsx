@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import Main_home from "../components/main-home/Main_home";
-import video from "../assets/Video_Energy_80MB.mp4";
+import video from ".././assets/Video_Energy_80MB.mp4";
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 function Home() {

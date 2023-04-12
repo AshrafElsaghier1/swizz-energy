@@ -1,6 +1,6 @@
 import React from "react";
 import { Menu } from "antd";
-import logo from "../assets/swiss-logo.jpg";
+import logo from ".././assets/swiss-logo.jpg";
 import { useState } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 export const items = [

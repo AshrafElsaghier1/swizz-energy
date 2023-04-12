@@ -1,4 +1,4 @@
-import bgImg from "../../assets/img-4.jpeg";
+import bgImg from "../.././assets/img-4.jpeg";
 import { RightOutlined } from "@ant-design/icons";
 
 const Secondary_section = () => {
