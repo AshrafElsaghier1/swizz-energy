@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;500;600;700&display=swap");
+@font-face {
+  font-family: "Gotham-black";
+
+  src: url("./fonts/Gotham\ Black\ Regular.ttf");
+}
+body {
+  font-family: "Gotham-black", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2.heading {
+  position: relative;
+}
+h2.heading::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  height: 7px;
+  width: 20%;
+  min-width: 62px;
+  margin: auto;
+  border-radius: 40px;
+  background: #eed484;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.container {
+  /* padding: 0 15px !important; */
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #565869;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
